@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xalan="http://xml.apache.org/xalan" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.isotc211.org/2005/gmd">
+    <language>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+    </language>
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact gco:nilReason="missing"/>
+    <dateStamp>
+        <gco:Date>2025-02-24</gco:Date>
+    </dateStamp>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <spatialRepresentationInfo>
+        <MD_VectorSpatialRepresentation>
+            <topologyLevel>
+                <MD_TopologyLevelCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="geometryOnly" codeSpace="ISOTC211/19115">geometryOnly</MD_TopologyLevelCode>
+            </topologyLevel>
+            <geometricObjects>
+                <MD_GeometricObjects>
+                    <geometricObjectType>
+                        <MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="composite" codeSpace="ISOTC211/19115">composite</MD_GeometricObjectTypeCode>
+                    </geometricObjectType>
+                </MD_GeometricObjects>
+            </geometricObjects>
+        </MD_VectorSpatialRepresentation>
+    </spatialRepresentationInfo>
+    <referenceSystemInfo>
+        <MD_ReferenceSystem>
+            <referenceSystemIdentifier>
+                <RS_Identifier>
+                    <code>
+                        <gco:CharacterString>6447</gco:CharacterString>
+                    </code>
+                    <codeSpace>
+                        <gco:CharacterString>EPSG</gco:CharacterString>
+                    </codeSpace>
+                    <version>
+                        <gco:CharacterString>8.2.10(10.3.1)</gco:CharacterString>
+                    </version>
+                </RS_Identifier>
+            </referenceSystemIdentifier>
+        </MD_ReferenceSystem>
+    </referenceSystemInfo>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>DemographicBoundaries2025</gco:CharacterString>
+                    </title>
+                    <date gco:nilReason="missing"/>
+                    <presentationForm>
+                        <CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</CI_PresentationFormCode>
+                    </presentationForm>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>Data fields are listed below. Sourced from ESRI's Enrich tool, current as of 2024. 
+ &amp;lt;colgroup&amp;gt;&amp;lt;col style="width:48pt" width="64"&amp;gt;&amp;lt;/col&amp;gt;
+ &amp;lt;/colgroup&amp;gt;
+  NAME
+ 
+ 
+  GEOTYPE
+ 
+ 
+  TotalPop
+ 
+ 
+  MedianAge
+ 
+ 
+  MalePop
+ 
+ 
+  MalePopPct
+ 
+ 
+  Male_0_4
+ 
+ 
+  Male_0_4Pct
+ 
+ 
+  Male_5_9
+ 
+ 
+  Male_5_9Pct
+ 
+ 
+  Male_10_14
+ 
+ 
+  Male_10_14Pct
+ 
+ 
+  Male_15_19
+ 
+ 
+  Male_15_19Pct
+ 
+ 
+  Male_20_24
+ 
+ 
+  Male_20_24Pct
+ 
+ 
+  Male_25_29
+ 
+ 
+  Male_25_29Pct
+ 
+ 
+  Male_30_34
+ 
+ 
+  Male_30_34Pct
+ 
+ 
+  Male_35_39
+ 
+ 
+  Male_35_39Pct
+ 
+ 
+  Male_40_44
+ 
+ 
+  Male_40_44Pct
+ 
+ 
+  Male_45_49
+ 
+ 
+  Male_45_49Pct
+ 
+ 
+  Male_50_54
+ 
+ 
+  Male_50_54Pct
+ 
+ 
+  Male_55_59
+ 
+ 
+  Male_55_59Pct
+ 
+ 
+  Male_60_
+ 
+ 
+  Male_60_Pct
+ 
+ 
+  FemalePop
+ 
+ 
+  FemalePopPct
+ 
+ 
+  Female_0_4
+ 
+ 
+  Female_0_4Pct
+ 
+ 
+  Female_5_9
+ 
+ 
+  Female_5_9Pct
+ 
+ 
+  Female_10_14
+ 
+ 
+  Female_10_14Pct
+ 
+ 
+  Female_15_19
+ 
+ 
+  Female_15_19Pct
+ 
+ 
+  Female_20_24
+ 
+ 
+  Female_20_24Pct
+ 
+ 
+  Female_25_29
+ 
+ 
+  Female_25_29Pct
+ 
+ 
+  Female_30_34
+ 
+ 
+  Female_30_34Pct
+ 
+ 
+  Female_35_39
+ 
+ 
+  Female_35_39Pct
+ 
+ 
+  Female_40_44
+ 
+ 
+  Female_40_44Pct
+ 
+ 
+  Female_45_49
+ 
+ 
+  Female_45_49Pct
+ 
+ 
+  Female_50_54
+ 
+ 
+  Female_50_54Pct
+ 
+ 
+  Female_55_59
+ 
+ 
+  Female_55_59Pct
+ 
+ 
+  Female_60_
+ 
+ 
+  Female_60_Pct
+ 
+ 
+  TotalHH
+ 
+ 
+  OwnerOccupy
+ 
+ 
+  OwnerOccupyPct
+ 
+ 
+  RenterOccupy
+ 
+ 
+  RenterOccupyPct
+ 
+ 
+  TotalHU
+ 
+ 
+  VacantHU
+ 
+ 
+  VacantHUPct
+ 
+ 
+  WhitePop
+ 
+ 
+  WhitePopPct
+ 
+ 
+  BlackPop
+ 
+ 
+  BlackPopPct
+ 
+ 
+  AsianPop
+ 
+ 
+  AsianPopPct
+ 
+ 
+  IndianPop
+ 
+ 
+  IndianPopPct
+ 
+ 
+  PacificPop
+ 
+ 
+  PacificPopPct
+ 
+ 
+  OtherRace
+ 
+ 
+  OtherRactPct
+ 
+ 
+  HispanicPop
+ 
+ 
+  HispanicPopPct
+ 
+ 
+  Edu_HS_NoDiploma
+ 
+ 
+  Edu_HS_Diploma
+ 
+ 
+  Edu_GED
+ 
+ 
+  Edu_College_NoDegree
+ 
+ 
+  Edu_AssociateDegree
+ 
+ 
+  Edu_BachelorDegree
+ 
+ 
+  Edu_GraduateDegree
+ 
+ 
+  AverageHHSize
+ 
+ 
+  HHBelowPovery
+ 
+ 
+  MedianHHIncome
+ 
+ 
+  MedianHValue
+ 
+ 
+  MedianAge_1
+ 
+ 
+  HU_50_
+ 
+ 
+  HU_50_Pct
+ 
+ 
+  HU_20_49
+ 
+ 
+  HU_20_49Pct
+ 
+ 
+  HU_10_19
+ 
+ 
+  HU_10_19Pct
+ 
+ 
+  HU_5_9
+ 
+ 
+  HU_5_9Pct
+ 
+ 
+  HU_3_4
+ 
+ 
+  HU_3_4Pct
+ 
+ 
+  HU_2
+ 
+ 
+  HU_2Pct
+ 
+ 
+  HU_1_Attached
+ 
+ 
+  HU_1_AttachedPct
+ 
+ 
+  HU_1_Detached
+ 
+ 
+  HU_1_DetachedPct
+ 
+ 
+  WorkHome
+ 
+ 
+  OtherMeans
+ 
+ 
+  Walked
+ 
+ 
+  Bicycle
+ 
+ 
+  PublicTrans
+ 
+ 
+  DroveAlone
+ 
+ 
+  Carpooled
+ 
+ 
+  Shape_Length
+ 
+ 
+  Shape_Area
+ </gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>Boundaries of the 25 official Neighborhood Planning Units with demographic census data attached. </gco:CharacterString>
+            </purpose>
+            <spatialRepresentationType>
+                <MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115">vector</MD_SpatialRepresentationTypeCode>
+            </spatialRepresentationType>
+            <language>
+                <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+            </language>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+            <environmentDescription>
+                <gco:CharacterString>Esri ArcGIS 13.4.0.55405</gco:CharacterString>
+            </environmentDescription>
+        </MD_DataIdentification>
+    </identificationInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <distributionFormat>
+                <MD_Format>
+                    <name>
+                        <gco:CharacterString>File Geodatabase Feature Class</gco:CharacterString>
+                    </name>
+                    <version gco:nilReason="missing"/>
+                </MD_Format>
+            </distributionFormat>
+        </MD_Distribution>
+    </distributionInfo>
+</MD_Metadata>
