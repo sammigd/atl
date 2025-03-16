@@ -7,3 +7,4 @@ Atlanta has a long history of voting down expansions to public transit. I wanted
 Some other things to look into:
 - Are schools public transit accessible?
 - Are hospitals public transit accessible?
+- What areas might benefit most from transit expansion?
